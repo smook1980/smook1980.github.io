@@ -1,0 +1,26 @@
+{
+  "name": "shanemook.com",
+  "version": "1.0.0",
+  "description": "shanemook.com site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smook1980/shanemook.com.git"
+  },
+  "author": "Shane Mook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smook1980/shanemook.com/issues"
+  },
+  "homepage": "https://github.com/smook1980/shanemook.com#readme",
+  "dependencies": {
+    "pug": "^2.0.0-alpha4",
+    "metalsmith": "^2.1.0",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0"
+  }
+}
