@@ -1,0 +1,12 @@
+html
+  head
+    if(title != undefined)
+      title= 'Shane Mook - ' + title
+    else
+      title= 'Shane Mook'
+
+    meta(name='description', content= description)
+    link(href='style/site.css', media='all', rel='stylesheet')
+  body
+    main.content
+      | !{contents}

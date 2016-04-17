@@ -4,7 +4,7 @@
   "description": "shanemook.com site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/smook1980/shanemook.com#readme",
   "dependencies": {
-    "pug": "^2.0.0-alpha4",
+    "autoprefixer": "^6.3.6",
+    "jade": "^1.11.0",
     "metalsmith": "^2.1.0",
+    "metalsmith-autoprefixer": "^1.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-google-analytics": "0.0.1",
     "metalsmith-layouts": "^1.6.4",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.5.0"
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-serve": "0.0.7"
   }
 }
